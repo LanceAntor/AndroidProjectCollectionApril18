@@ -27,7 +27,6 @@ public class PassingIntentsExercise extends AppCompatActivity {
         eSubmit.setOnClickListener(this::onClick);
         eClear = (Button) findViewById(R.id.btnClear);
 
-
         eFName = (EditText) findViewById(R.id.etxtFName);
         eLName = (EditText) findViewById(R.id.etxtLName);
         eBDate = (EditText) findViewById(R.id.etxtBDate);
@@ -43,6 +42,12 @@ public class PassingIntentsExercise extends AppCompatActivity {
         rMale = (RadioButton) findViewById(R.id.radMale);
         rFem = (RadioButton) findViewById(R.id.radFemale);
         rOth = (RadioButton) findViewById(R.id.radOthers);
+        eClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                reset();
+            }
+        });
     }
     public void onClick(View v){
         String fName = eFName.getText().toString();
@@ -82,5 +87,21 @@ public class PassingIntentsExercise extends AppCompatActivity {
         intent.putExtra("interest_key", interest);
         intent.putExtra("fathers_key", fathersName);
         intent.putExtra("mothers_key", mothersName);
+        startActivity(intent);
+    }
+    public void reset(){
+        eFName.setText("");
+        eLName.setText("");
+        eBDate.setText("");
+        eMail.setText("");
+        eInterest.setText("");
+        ePAddress.setText("");
+        eNum.setText("");
+        eHS.setText("");
+        eMother.setText("");
+        eFather.setText("");
+        rMale.setChecked(false);
+        rFem.setChecked(false);
+        rOth.setChecked(false);
     }
 }

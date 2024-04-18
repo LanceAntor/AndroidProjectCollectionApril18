@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".PassingIntentsExercise">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollVIew2">
+
+
+
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
@@ -42,8 +49,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="First Name" />
+                android:hint="First Name"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/etxtLName"
@@ -51,8 +58,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Last Name" />
+                android:hint="Last Name"
+                android:inputType="textPersonName" />
         </LinearLayout>
 
         <TextView
@@ -95,7 +102,7 @@
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Birth Date" />
@@ -118,7 +125,7 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Phone Number" />
@@ -140,7 +147,7 @@
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Email Address" />
@@ -162,7 +169,7 @@
 
             <TextView
                 android:id="@+id/textView17"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Present Address" />
@@ -184,7 +191,7 @@
 
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="High School Name" />
@@ -205,7 +212,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Interest" />
@@ -227,7 +234,7 @@
 
             <TextView
                 android:id="@+id/textView20"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Father's Name" />
@@ -249,7 +256,7 @@
 
             <TextView
                 android:id="@+id/textView21"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Mother's Name" />
@@ -281,8 +288,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 android:text="Submit" />
         </LinearLayout>
 
     </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
