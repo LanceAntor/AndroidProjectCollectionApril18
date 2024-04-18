@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLayoutExercise"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/btn1"
+        app:layout_constraintBottom_toTopOf="@+id/btnButtonExercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnButtonExercise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLayoutExercise" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn3"
+        app:layout_constraintBottom_toTopOf="@+id/btnMidterm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnButtonExercise" />
+
+    <Button
+        android:id="@+id/btnConnectExercise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Connect 3"
+        app:layout_constraintBottom_toTopOf="@+id/btnPassingIntents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMidterm" />
+
+    <Button
+        android:id="@+id/btnMidterm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="MIDTERM"
+        app:layout_constraintBottom_toTopOf="@+id/btnConnectExercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculator" />
+
+    <Button
+        android:id="@+id/btnPassingIntents"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Passing Intents"
+        app:layout_constraintBottom_toTopOf="@+id/btnFragments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConnectExercise" />
+
+    <Button
+        android:id="@+id/btnFragments"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fragments"
+        app:layout_constraintBottom_toTopOf="@+id/btnMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPassingIntents" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="345dp"
+        android:text="Menus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFragments" />
+</androidx.constraintlayout.widget.ConstraintLayout>

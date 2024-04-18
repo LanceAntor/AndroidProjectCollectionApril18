@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">AndroidProjectCollection</string>
+
+    <!-- INSTAGRAM BUTTON -->
+    <string name="btn1">Layout Exercise</string>
+    <string name="btn2">Button Exercise</string>
+    <string name="btn3">Calculator Exercise</string>
+    <string name="btn4">Button4</string>
+
+    <string name="name2">Dan</string>
+    <string name="name3">Trixie</string>
+    <string name="name4">Miguel</string>
+    <string name="name1">Me</string>
+    <string name="name5">Shan</string>
+    <string name="name6">Alexis</string>
+    <string name="name7">Kent</string>
+    <string name="name8">Paul</string>
+    <string name="name9">Lance</string>
+
+    <string name="postTextName1">Stark</string>
+    <string name="btnLike">L</string>
+    <string name="btnShare">S</string>
+    <string name="textComment">Comment...</string>
+    <string name="postTextName2">Sven</string>
+    <string name="postTextName3">Meimei</string>
+    <!-- INSTAGRAM BUTTON -->
+
+
+    <!--- BUTTON EXERCISE -->
+    <string name="ButtonClose">Close</string>
+    <string name="ButtonToast">Toast</string>
+    <string name="ButtonChangeBg">Change BG</string>
+    <string name="ButtonChangeCol">Change Col</string>
+    <string name="ButtonDisappear">Disappear</string>
+    <!--- BUTTON EXERCISE -->
+
+    <!-- Calculator -->
+    <string name="button1">1</string>
+    <string name="button0">0</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="btn9">9</string>
+    <string name="button4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btnDivide">/</string>
+    <string name="btnSubtract">-</string>
+    <string name="btnMultiply">*</string>
+    <string name="btnAddition">+</string>
+    <string name="btnDot">.</string>
+    <string name="btnEquals">=</string>
+
+    <string name="textViewResultTv">0</string>
+    <!-- Calculator -->
+
+    <!-- Connect -->
+    <string name="blank"> </string>
+    <string name="btnRestart">RESTART</string>
+    <string name="Player1">Player 1</string>
+
+
+</resources>
