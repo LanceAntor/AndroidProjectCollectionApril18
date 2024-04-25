@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mItemChange"
+        android:title="Change">
+        <menu>
+            <item
+                android:id="@+id/mChangeFontWeightToItalic"
+                android:title="Italic" />
+            <item
+                android:id="@+id/mChangeTxtToGreen"
+                android:title="TextColor" />
+            <item android:id="@+id/mChangeButtonColorToBlue"
+                android:title="ButtonColor" />
+            <item
+                android:id="@+id/mChangeBGColorToRed"
+                android:title="BackgrounndColor" />
+            <item
+                android:id="@+id/mChangeSizeToSqure"
+                android:title="ChangeSizeOfButton" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:title="Reset" />
+    <item
+        android:id="@+id/mItemExit"
+        android:title="Exit" />
+</menu>
