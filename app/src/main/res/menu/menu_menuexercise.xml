@@ -12,8 +12,8 @@
             <item
                 android:id="@+id/mChangeTxtToGreen"
                 android:title="TextColor" />
-            <item android:id="@+id/mChangeButtonColorToBlue"
-                android:title="ButtonColor" />
+            <item android:id="@+id/mChangeTextSize"
+                android:title="ChangeTextSize" />
             <item
                 android:id="@+id/mChangeBGColorToRed"
                 android:title="BackgrounndColor" />

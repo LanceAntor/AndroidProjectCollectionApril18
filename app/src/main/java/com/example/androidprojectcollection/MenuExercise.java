@@ -43,14 +43,14 @@ public class MenuExercise extends AppCompatActivity {
             layoutParams.width = dimen;
             layoutParams.height = dimen;
             btnChanger.setLayoutParams(layoutParams);
-            btnChanger.setBackgroundColor(Color.parseColor("#7F00FF"));
+            btnChanger.setTextSize(24);
             btnChanger.setTextColor(Color.WHITE);
             btnChanger.setTypeface(null,Typeface.NORMAL);
-            getWindow().getDecorView().setBackgroundColor(Color.WHITE);
+            btnChanger.setBackgroundColor(Color.parseColor("#7F00FF"));
         } else if(item.getItemId() == R.id.mChangeBGColorToRed) {
-            getWindow().getDecorView().setBackgroundColor(Color.RED);
-        } else if (item.getItemId() == R.id.mChangeButtonColorToBlue) {
-            btnChanger.setBackgroundColor(Color.parseColor("#808080"));
+            btnChanger.setBackgroundColor(Color.RED);
+        } else if (item.getItemId() == R.id.mChangeTextSize) {
+            btnChanger.setTextSize(50);
         } else if (item.getItemId() == R.id.mChangeTxtToGreen){
             btnChanger.setTextColor(Color.GREEN);
         } else if(item.getItemId() == R.id.mChangeFontWeightToItalic){
