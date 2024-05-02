@@ -85,6 +85,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn6 = findViewById(R.id.btnMapExercise);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(
+                        MainActivity.this, MapExercise.class
+                );
+                startActivity(intent1);
+            }
+        });
 
     }
 }
